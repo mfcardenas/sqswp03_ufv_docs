@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentación - Material Didáctico ISO</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            min-height: 100vh;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            background: #fff;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+        }
+        
+        h1 {
+            color: #667eea;
+            text-align: center;
+            border-bottom: 3px solid #667eea;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+            font-size: 2.5em;
+            font-weight: 700;
+        }
+        
+        h2 {
+            color: #764ba2;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 1.8em;
+            border-left: 5px solid #667eea;
+            padding-left: 15px;
+        }
+        
+        h2 a {
+            color: #764ba2;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        
+        h2 a:hover {
+            color: #667eea;
+        }
+        
+        h3, h4 {
+            color: #667eea;
+            margin-top: 15px;
+            margin-bottom: 10px;
+        }
+        
+        .content-section {
+            margin-bottom: 30px;
+            padding: 20px;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+        
+        details {
+            background: #fff;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+            border: 2px solid #e0e0e0;
+            transition: all 0.3s ease;
+        }
+        
+        details:hover {
+            border-color: #667eea;
+            box-shadow: 0 4px 12px rgba(102, 126, 234, 0.2);
+        }
+        
+        details[open] {
+            border-color: #764ba2;
+            background: #f8f9ff;
+        }
+        
+        summary {
+            font-weight: bold;
+            cursor: pointer;
+            color: #764ba2;
+            font-size: 1.1em;
+            padding: 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        
+        summary:hover {
+            background-color: #f0f0ff;
+        }
+        
+        details > div {
+            padding: 15px;
+            margin-top: 10px;
+        }
+        
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        
+        li {
+            background: #fff;
+            margin-bottom: 8px;
+            padding: 12px 15px;
+            border-radius: 6px;
+            border-left: 3px solid #667eea;
+            transition: all 0.3s ease;
+        }
+        
+        li:hover {
+            background: #f8f9ff;
+            transform: translateX(5px);
+        }
+        
+        p {
+            margin-bottom: 15px;
+            line-height: 1.8;
+        }
+        
+        strong {
+            color: #764ba2;
+        }
+        
+        .intro {
+            text-align: center;
+            font-size: 1.1em;
+            color: #555;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+            border-radius: 8px;
+        }
+        
+        .note {
+            background: #e8f4fd;
+            border-left: 4px solid #2196f3;
+            padding: 15px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>📚 Documentación del Proyecto</h1>
+        <div style="text-align: right; margin-bottom: 10px;">
+            <a href="index_en.html" style="background: #667eea; color: white; padding: 8px 16px; border-radius: 5px; text-decoration: none; transition: all 0.3s ease;">🇬🇧 English Version</a>
+        </div>
+        
+        <div class="note">
+            <p><strong>📖 Documentación del Proyecto ISO</strong></p>
+            <p>Esta es la documentación navegable independiente del proyecto completo de Material Didáctico para Ingeniería del Software. Incluye todos los juegos educativos, laboratorios y recursos web en un formato navegable para servidor público.</p>
+        </div>
+        
+        <div class="intro">
+            <p>Bienvenido a la documentación completa del proyecto de Material Didáctico para Ingeniería del Software. Este sitio organiza todos los talleres, actividades, GPTs y laboratorios relacionados con la Ingeniería del Software y los estándares internacionales ISO.</p>
+            <p><strong>Estándares Cubiertos:</strong> ISO 9241 (Ergonomía de la interacción humano-sistema), ISO/IEC/IEEE 29148 (Ingeniería de requisitos), ISO/IEC 25010:2023 (Calidad del producto de software)</p>
+        </div>
+
+        <div class="content-section">
+            <h2>🎮 Juegos Educativos Interactivos</h2>
+            <details>
+                <summary>ISO Laboratory - Simulador de Decisiones Técnicas</summary>
+                <div>
+                    <h3>Laboratorio ISO - Juego Educativo Interactivo</h3>
+                    <p><strong><a href="Juegos/sqs_wp_players/iso-index.html" target="_blank">🎮 Jugar Ahora</a></strong></p>
+                    <p>Un simulador educativo completo que enseña los estándares ISO de calidad de software a través de decisiones técnicas realistas y mecánicas de gamificación avanzadas.</p>
+                    
+                    <h4>Características Principales</h4>
+                    <ul>
+                        <li><strong>Simulador de Decisiones Reales:</strong> Arquitectura, Base de Datos, Testing, Seguridad, UI/UX con impacto en métricas ISO 25010</li>
+                        <li><strong>4 Tipos de Proyecto:</strong> E-commerce, Hospital, FinTech, Red Social con objetivos ISO específicos</li>
+                        <li><strong>Gestión de Recursos:</strong> Presupuesto y tiempo limitados con trade-offs realistas</li>
+                        <li><strong>Eventos Aleatorios:</strong> Cambios de requisitos, vulnerabilidades, rotación de personal</li>
+                        <li><strong>Quiz Interactivo:</strong> Preguntas cronometradas sobre ISO 25010, ISO 29148, ISO 9241</li>
+                        <li><strong>Soporte Bilingüe:</strong> Totalmente funcional en español e inglés</li>
+                    </ul>
+
+                    <h4>Estándares ISO Implementados</h4>
+                    <ul>
+                        <li><strong>ISO 25010:</strong> 8 características de calidad medidas en tiempo real</li>
+                        <li><strong>ISO 29148:</strong> Ingeniería de requisitos y gestión de stakeholders</li>
+                        <li><strong>ISO 9241:</strong> Ergonomía e interacción humano-sistema</li>
+                    </ul>
+
+                    <h4>Mecánicas de Gamificación</h4>
+                    <ul>
+                        <li><strong>Sistema de Puntuación:</strong> +10-50 puntos por decisiones correctas</li>
+                        <li><strong>Niveles de Progresión:</strong> 10+ niveles con dificultad creciente</li>
+                        <li><strong>Logros y Medallas:</strong> Insignias por hitos específicos</li>
+                        <li><strong>Estadísticas Detalladas:</strong> Tracking de rendimiento y progreso</li>
+                    </ul>
+
+                    <h4>Tecnologías y Accesibilidad</h4>
+                    <ul>
+                        <li>HTML5/CSS3/JavaScript puro, sin dependencias externas</li>
+                        <li>Diseño responsive para móvil, tablet y escritorio</li>
+                        <li>Cumplimiento WCAG AA para accesibilidad</li>
+                        <li>Navegación por teclado completa</li>
+                        <li>Guardado automático de progreso</li>
+                    </ul>
+                </div>
+            </details>
+            <details>
+                <summary>MedCore Hospital System - Simulador de Proyecto Hospitalario</summary>
+                <div>
+                    <h3>MedCore - Simulador de Sistema Hospitalario</h3>
+                    <p><strong><a href="Juegos/sqs_wp_players/proyecto-medcore/medcore-enhanced-game.html" target="_blank">🎮 Jugar Versión Español</a> | <a href="Juegos/sqs_wp_players/proyecto-medcore/medcore-enhanced-game-en.html" target="_blank">🎮 Play English Version</a></strong></p>
+                    <p>Un simulador especializado que recrea la experiencia de liderar el desarrollo del sistema MedCore para el Hospital San Rafael, aplicando estándares ISO en un contexto sanitario crítico.</p>
+                    
+                    <h4>Experiencia de Simulación</h4>
+                    <ul>
+                        <li><strong>5 Fases del Proyecto:</strong> Análisis, Diseño, Implementación, Testing, Despliegue</li>
+                        <li><strong>Decisiones Críticas:</strong> Gestión de requisitos, stakeholders, mejoras de calidad</li>
+                        <li><strong>Métricas ISO 25010:</strong> Funcionalidad, Usabilidad, Confiabilidad, Seguridad, Performance</li>
+                        <li><strong>Contexto Realista:</strong> Presupuesto €2.5M, 18 meses, entorno hospitalario</li>
+                    </ul>
+
+                    <h4>Características del Sistema</h4>
+                    <ul>
+                        <li><strong>Dashboard en Tiempo Real:</strong> Visualización de métricas y progreso</li>
+                        <li><strong>Sistema de Alertas:</strong> Notificaciones visuales para cada acción</li>
+                        <li><strong>Evaluación Continua:</strong> Impacto inmediato de decisiones en calidad</li>
+                        <li><strong>Guardado Automático:</strong> Progreso conservado entre sesiones</li>
+                    </ul>
+
+                    <h4>Objetivos Educativos</h4>
+                    <ul>
+                        <li>Aplicación de ISO 29148 en gestión de requisitos sanitarios</li>
+                        <li>Implementación de ISO 25010 en sistemas críticos</li>
+                        <li>Gestión de stakeholders en entornos regulados</li>
+                        <li>Balance entre calidad, tiempo y presupuesto</li>
+                    </ul>
+
+                    <h4>Estado del Proyecto</h4>
+                    <p><strong>✅ Completamente funcional</strong> - Verificado el 15 de noviembre de 2025. Sin errores de JavaScript, experiencia fluida garantizada.</p>
+                </div>
+            </details>
+            <details>
+                <summary>Game Hub - Centro de Juegos Educativos</summary>
+                <div>
+                    <h3>Centro de Juegos ISO - Hub Principal</h3>
+                    <p><strong><a href="Juegos/sqs_wp_players/index.html" target="_blank">🎮 Acceder al Hub de Juegos</a></strong></p>
+                    <p>Punto de acceso principal a todos los juegos educativos ISO con tutorial interactivo, selector de escenarios y sistema de progreso unificado.</p>
+                    
+                    <h4>Funcionalidades del Hub</h4>
+                    <ul>
+                        <li><strong>Tutorial Interactivo:</strong> Guía de 5 pasos para nuevos usuarios</li>
+                        <li><strong>Selector de Escenarios:</strong> E-commerce, Hospital, Finanzas, Social Network</li>
+                        <li><strong>Sistema de Progresión:</strong> XP, niveles y logros unificados</li>
+                        <li><strong>Estadísticas Globales:</strong> Tracking de rendimiento general</li>
+                        <li><strong>Acceso Directo:</strong> Enlaces rápidos a todos los juegos</li>
+                    </ul>
+
+                    <h4>Tipos de Experiencia Disponibles</h4>
+                    <ul>
+                        <li><strong>Modo Tutorial:</strong> Aprendizaje guiado paso a paso</li>
+                        <li><strong>Juego Libre:</strong> Selección libre de escenarios y dificultad</li>
+                        <li><strong>Desafíos Cronometrados:</strong> Quiz con límite de tiempo</li>
+                        <li><strong>Proyectos Completos:</strong> Simulaciones de ciclo completo</li>
+                    </ul>
+
+                    <h4>Arquitectura Técnica</h4>
+                    <ul>
+                        <li>Motor de juego modular con 400+ líneas de lógica</li>
+                        <li>Sistema de estados persistente (localStorage)</li>
+                        <li>Diseño accesible WCAG AA certificado</li>
+                        <li>Compatible con todos los navegadores modernos</li>
+                    </ul>
+                </div>
+            </details>
+        </div>
+
+        <div class="content-section">
+            <h2>🌐 Aplicaciones Web Externas</h2>
+            <details>
+                <summary>ISO Quiz - Aplicación en la Nube</summary>
+                <div>
+                    <h3>ISO Quiz - Aplicación de Retos de Calidad de Software</h3>
+                    <p><strong><a href="https://sqswp035isoufvnew-y2xt6ew0.b4a.run/" target="_blank">🔗 Enlace a la Aplicación</a></strong></p>
+                    <p>Una aplicación web simple para poner a prueba los conocimientos sobre estándares de calidad de software a través de preguntas tipo test.</p>
+                    
+                    <h4>Características</h4>
+                    <ul>
+                        <li><strong>Interfaz intuitiva:</strong> Diseño sencillo y atractivo para facilitar la interacción</li>
+                        <li><strong>Múltiples estándares:</strong> Soporte para ISO/IEC 25010:2023, ISO/IEC/IEEE 29148, ISO 9241</li>
+                        <li><strong>Generación dinámica de preguntas:</strong> Utiliza un modelo de lenguaje (Ollama) para crear preguntas dinámicas</li>
+                        <li><strong>Retroalimentación inmediata:</strong> Proporciona retroalimentación detallada para cada respuesta</li>
+                        <li><strong>Sistema de evaluación:</strong> Incluye sistema de puntuación y resultados finales</li>
+                    </ul>
+
+                    <h4>Tecnologías Utilizadas</h4>
+                    <ul>
+                        <li>Python 3.7+ con Flask</li>
+                        <li>Ollama para generación de preguntas con IA</li>
+                        <li>HTML5, CSS3 y JavaScript para la interfaz</li>
+                        <li>Requests para comunicación con el modelo de IA</li>
+                    </ul>
+
+                    <h4>Versiones Disponibles</h4>
+                    <p>La aplicación cuenta con múltiples versiones (0.0.1, 0.0.2, 0.0.3) además de la versión de desarrollo actual.</p>
+                </div>
+            </details>
+        </div>
+
+        <div class="content-section">
+            <h2>🤖 GPTs Educativos</h2>
+            <details>
+                <summary>ExamGPT-UFV</summary>
+                <div>
+                    <h3>GPT para Generación y Evaluación de Exámenes</h3>
+                    <p><strong><a href="https://chatgpt.com/g/g-6909f37ba7388191a27b14a642d08d6c-examgpt-ufv" target="_blank">🔗 Enlace al GPT</a></strong></p>
+                    <p>Este GPT personalizado está diseñado específicamente para la generación automática de exámenes y la evaluación de respuestas en el contexto académico de la Universidad Francisco de Vitoria.</p>
+                    
+                    <h4>Características</h4>
+                    <ul>
+                        <li>Generación automática de preguntas de examen</li>
+                        <li>Evaluación asistida por IA</li>
+                        <li>Adaptación al contexto académico específico</li>
+                        <li>Disponible en español e inglés</li>
+                    </ul>
+                </div>
+            </details>
+            <details>
+                <summary>ConsultorLabISO-WP35-UFV</summary>
+                <div>
+                    <h3>Simulador Profesional de Consultoría en Ingeniería de Software</h3>
+                    <p><strong><a href="https://chatgpt.com/g/g-6918a8d83fe48191990965457ee82e30-consultinglabiso-wp35-ufv" target="_blank">🔗 Enlace al GPT</a></strong></p>
+                    <p>Un simulador avanzado diseñado para formar a estudiantes y profesionales junior en el análisis, diseño y evaluación de proyectos de software utilizando estándares internacionales.</p>
+                    
+                    <h4>Características Principales</h4>
+                    <ul>
+                        <li><strong>Simulación Profesional:</strong> Experiencia inmersiva donde el usuario asume el rol de consultor frente a un cliente real</li>
+                        <li><strong>Estándares Integrados:</strong> Aplicación práctica de ISO/IEC/IEEE 29148, ISO/IEC 25010 e ISO 9241</li>
+                        <li><strong>Metodología en Dos Fases:</strong> Onboarding visual seguido de ciclo de vida completo del proyecto</li>
+                        <li><strong>Interfaz Visual Dinámica:</strong> Elementos visuales, iconos semánticos y micro-escenas sin saturación</li>
+                    </ul>
+                </div>
+            </details>
+            <details>
+                <summary>ISOQuest-UFV</summary>
+                <div>
+                    <h3>GPT Educativo de Juegos ISO - Aprendizaje Gamificado</h3>
+                    <p><strong><a href="https://chatgpt.com/g/g-68beb9e2b1f88191b19935518a3e260c-isoquest-ufv" target="_blank">🔗 Enlace al GPT</a></strong></p>
+                    <p>Un GPT especializado en la creación y gestión de juegos educativos interactivos para el aprendizaje de estándares ISO a través de gamificación y experiencias lúdicas.</p>
+                    
+                    <h4>Juegos Disponibles</h4>
+                    <ul>
+                        <li><strong>QualityQuest:</strong> Aventura para dominar los 8 atributos de calidad ISO/IEC 25010</li>
+                        <li><strong>ReqRally:</strong> Carreras de especificación de requisitos según ISO/IEC/IEEE 29148</li>
+                        <li><strong>UXplorer:</strong> Exploración de principios de usabilidad ISO 9241</li>
+                        <li><strong>StandardShowdown:</strong> Competiciones que integran múltiples estándares</li>
+                    </ul>
+                </div>
+            </details>
+        </div>
+
+        <div class="content-section">
+            <h2><a href="Laboratorios/">Laboratorios</a></h2>
+            <details>
+                <summary>ISO 9241 Labs - Sitio Web Interactivo</summary>
+                <div>
+                    <h3>Sistema Web Completo para Laboratorios ISO 9241</h3>
+                    <p><strong>Nuevas Páginas Web Interactivas:</strong> Sistema web profesional con 12 páginas que presentan los 6 laboratorios de ISO 9241 de manera atractiva y navegable.</p>
+                    
+                    <h4>Páginas Principales de Laboratorios:</h4>
+                    <ul>
+                        <li><a href="Laboratorios/ISO_9241_Labs/lab1_es.html"><strong>Lab 1:</strong> Análisis del Contexto de Uso</a></li>
+                        <li><a href="Laboratorios/ISO_9241_Labs/lab2_es.html"><strong>Lab 2:</strong> Principios de Diálogo</a></li>
+                        <li><a href="Laboratorios/ISO_9241_Labs/lab3_es.html"><strong>Lab 3:</strong> Evaluación Heurística</a></li>
+                        <li><a href="Laboratorios/ISO_9241_Labs/lab5_es.html"><strong>Lab 5:</strong> Pruebas de Usabilidad</a></li>
+                        <li><a href="Laboratorios/ISO_9241_Labs/lab6_es.html"><strong>Lab 6:</strong> Diseño Centrado en el Usuario</a></li>
+                    </ul>
+
+                    <h4>Características del Sistema Web:</h4>
+                    <ul>
+                        <li><strong>Diseño Profesional:</strong> Interfaz moderna y responsiva con animaciones suaves</li>
+                        <li><strong>Navegación Integrada:</strong> Sistema de navegación entre laboratorios y cambio de idioma</li>
+                        <li><strong>Soporte Bilingüe:</strong> Todas las páginas disponibles en español e inglés</li>
+                        <li><strong>Materiales Educativos:</strong> Sección dedicada que describe todos los archivos disponibles por laboratorio</li>
+                        <li><strong>Contenido Detallado:</strong> Información completa sobre metodologías, competencias y resultados de aprendizaje</li>
+                    </ul>
+
+                    <h4>Materiales Educativos Incluidos:</h4>
+                    <ul>
+                        <li><strong>material_estudiante.md:</strong> Guías comprensivas (4000-5000+ palabras)</li>
+                        <li><strong>problem.md:</strong> Estudios de caso detallados de TravelEase</li>
+                        <li><strong>guia_docente.md:</strong> Recursos completos para instructores</li>
+                        <li><strong>rubrica_evaluacion.md:</strong> Matrices de evaluación profesional</li>
+                        <li><strong>prompt.md:</strong> Guías de inicio rápido</li>
+                        <li><strong>solution.md:</strong> Soluciones completas para referencia</li>
+                    </ul>
+                    
+                    <p><a href="Laboratorios/ISO_9241_Labs/iso_9241_labs.html">Ver detalles completos de los laboratorios de ISO 9241</a></p>
+                </div>
+            </details>
+            <details>
+                <summary>ISO 9241 Labs - Contenido Original</summary>
+                <div>
+                    <p>Este directorio contiene 10 laboratorios diseñados para enseñar y explorar el estándar ISO 9241. Cada laboratorio incluye un planteamiento del problema, una solución y un prompt para regenerar la solución. Disponible en inglés y español.</p>
+                    <p><a href="Laboratorios/ISO_9241_Labs/iso_9241_labs.html">Ver detalles de los laboratorios de ISO 9241</a></p>
+                </div>
+            </details>
+            <details>
+                <summary>ISO/IEC/IEEE 29148 Labs</summary>
+                <div>
+                    <p>Contiene laboratorios para el estándar ISO/IEC/IEEE 29148, centrado en la ingeniería de requisitos. Disponible en inglés y español.</p>
+                    <p><a href="Laboratorios/ISO_IEC_IEEE_29148_Labs/iso_29148_labs.html">Ver detalles de los laboratorios de ISO/IEC/IEEE 29148</a></p>
+                </div>
+            </details>
+            <details>
+                <summary>ISO/IEC 25010:2023 Labs</summary>
+                <div>
+                    <p>Contiene laboratorios para el estándar ISO/IEC 25010:2023, que define un modelo de calidad para el producto de software. Disponible en inglés y español.</p>
+                    <p><a href="Laboratorios/ISOIEC_25010_2023_Labs/iso_25010_labs.html">Ver detalles de los laboratorios de ISO/IEC 25010:2023</a></p>
+                </div>
+            </details>
+        </div>
+
+        <div class="content-section">
+            <h2><a href="Prácticas/">Prácticas</a></h2>
+            <p>Contiene ejercicios prácticos para reforzar los conocimientos en Ingeniería del Software, disponibles en inglés y español.</p>
+            <details>
+                <summary>Actividades y Ejercicios</summary>
+                <div>
+                    <h3>Contenido Disponible</h3>
+                    <ul>
+                        <li><strong>Actividad 01:</strong> Ejercicios prácticos introductorios</li>
+                        <li><strong>Actividad 02:</strong> Ejercicios avanzados de aplicación</li>
+                        <li><strong>Integración de Estándares:</strong> Serie de ejercicios prácticos sobre la integración de los estándares ISO 9241, ISO/IEC/IEEE 29148 e ISO/IEC 25010:2023</li>
+                        <li><strong>Ejercicios de Evaluación:</strong> Múltiples ejercicios (E01-E06) para evaluación de conceptos</li>
+                        <li><strong>Ejercicios de Revisión:</strong> Serie de ejercicios de revisión (ER01-ER05)</li>
+                        <li><strong>Material de Presentación:</strong> Documentación para presentaciones de resultados</li>
+                    </ul>
+                    <p>Todos los ejercicios están disponibles en formato .docx tanto en español como en inglés.</p>
+                </div>
+            </details>
+        </div>
+
+        <div class="content-section">
+            <h2><a href="Talleres/">Talleres</a></h2>
+            <details>
+                <summary>Ingeniería del Software I</summary>
+                <div>
+                    <h3>Descripción</h3>
+                    <p>Material relacionado con la asignatura de Ingeniería del Software I, incluyendo una introducción completa a la disciplina y los conceptos fundamentales.</p>
+                    
+                    <h4>Contenido Disponible:</h4>
+                    <ul>
+                        <li><strong>Ingeniería del Software I (PDF):</strong> Manual completo de la asignatura (5624_p_es.pdf)</li>
+                        <li><strong>Introducción a la Ingeniería del Software:</strong> Talleres introductorios con materiales de explicación, ejercicios y documentación de apoyo</li>
+                    </ul>
+
+                    <h4>Talleres Específicos:</h4>
+                    <ul>
+                        <li>Taller Unit 01_01: Introducción a los conceptos fundamentales</li>
+                        <li>Explicación detallada de conceptos</li>
+                        <li>Materiales de apoyo y ejercicios prácticos</li>
+                    </ul>
+                </div>
+            </details>
+        </div>
+    </div>
+</body>
+</html>
